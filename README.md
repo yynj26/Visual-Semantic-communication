@@ -1,10 +1,22 @@
 ### TL;DR 
-Check out the /Checkpoint directory
+Check out the /Checkpoint directory, contains: 
 
+Output file and shape at each stage: 
+
+- Semantic Encoder 
+- Channel Encodeder
+- Channel Decodeder
+- Semantic Decoder
+
+And sample input & output file after 3 epochs, more epochs to be come(with better results)
+
+#### Where to make change 
 
 - src/communication : this directory is for all tele-communication function and modules, you can add function here
 
-- log/checkpoints : you can find all stage-wise datashapes in here 
+
+
+### Running Command 
 
 #### 1. Training the Model 
 
