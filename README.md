@@ -1,23 +1,27 @@
-1. Training the Model 
-To train the model using train.py, you can run:
+####1. Training the Model 
 
 python src/train.py --vocab-file europarl/vocab.json --checkpoint-path checkpoints/AWGN --MAX-LENGTH 30 --MIN-LENGTH 4 --d-model 128 --dff 512 --num-layers 4 --num-heads 8 --batch-size 128 --epochs 80
 
-2. Running Performance Evaluation  
-To evaluate the performance and plot BLEU scores using main.py, you can run:
+####2. Running Performance Evaluation  
 
 python src/main.py --task performance
 
 
-3. view the transmitted text
+####3. view the transmitted text
+
+
 python src/main.py --task view_transmitted_text
 
 
-4.show intermediate data and shapes of tensor files from checkpoints
+####4.show intermediate data and shapes of tensor files from checkpoints
+
+
 python src/main.py --task read_log
 
 
-5.show bleu plot
+####5.show bleu plot
+
+
 python src/main.py --task plot_bleu
 
 ### code change & look up: 
