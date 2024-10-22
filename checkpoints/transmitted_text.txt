@@ -1,4 +1,4 @@
-#this is the result of running script of original text vs transmitted text. 
+#this is the result of running script of original text vs transmitted text after running 3 epochs, refined version to be updated. 
 
 !python src/main.py --task view_transmitted_text
 
