@@ -1,0 +1,14 @@
+torch~=1.12.1
+nltk~=3.6.7
+w3lib~=2.0.1
+tqdm~=4.64.1
+sklearn~=0.0
+
+# bert4keras==0.4.2
+
+bert4keras==0.4.6
+
+numpy~=1.19.5
+similarity~=0.0.1
+scikit-learn~=0.24.2
+matplotlib~=3.3.4
