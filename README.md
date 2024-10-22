@@ -1,5 +1,5 @@
 ### TL;DR 
-Check out the Checkpoint.directory
+Check out the /Checkpoint directory
 
 
 - src/communication : this directory is for all tele-communication function and modules, you can add function here
