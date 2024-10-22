@@ -1,0 +1,4 @@
+Encoder Output Shape: torch.Size([128, 31, 128]), Mean: -0.010145830921828747, Std: 0.666063129901886
+Channel Encoded Output Shape: torch.Size([128, 31, 16]), Mean: 0.0006919452571310103, Std: 1.0779119729995728
+Channel Decoded Output Shape: torch.Size([128, 31, 128]), Mean: -0.003049777587875724, Std: 0.8166764378547668
+Decoder Output Shape: torch.Size([128, 20, 128]), Mean: 0.0673450380563736, Std: 4.133947849273682
