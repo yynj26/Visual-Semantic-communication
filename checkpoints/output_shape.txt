@@ -2,6 +2,8 @@
 #From the output, you can see the shape(bandwidth), mean and std of the output at each stage. 
 #Original files can be view in this directory.
 
+!python src/main.py --task read_log
+
 
 Encoder Output Shape: torch.Size([128, 31, 128]), Mean: -0.010145830921828747, Std: 0.666063129901886
 Channel Encoded Output Shape: torch.Size([128, 31, 16]), Mean: 0.0006919452571310103, Std: 1.0779119729995728
